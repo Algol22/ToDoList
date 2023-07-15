@@ -11,7 +11,7 @@ const ToDoList: React.FC<ToDoItemProps> = ({todos}) => {
 
 
   return (
-    <div>ToDoList:
+    <div className='container'>ToDoList:
 
         {
             todos.map(todo => (
